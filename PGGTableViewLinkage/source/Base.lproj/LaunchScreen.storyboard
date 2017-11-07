@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鹏哥哥联动" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDa-Wb-90i">
+                                <rect key="frame" x="137" y="146" width="102" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="63e-84-nlv"/>
+                                    <constraint firstAttribute="width" constant="102" id="BaL-sb-hVa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2017年 penggege.CP. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtx-ir-9EN">
+                                <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="i5N-cz-eMr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="代码地址" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5o-Kl-S2I">
+                                <rect key="frame" x="0.0" y="591" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9l3-l3-MzA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="m5o-Kl-S2I" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1Nc-US-FfN"/>
+                            <constraint firstItem="kDa-Wb-90i" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="28v-Nx-Czk"/>
+                            <constraint firstItem="gtx-ir-9EN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3dY-n3-UI4"/>
+                            <constraint firstItem="kDa-Wb-90i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="126" id="4bT-s8-R4o"/>
+                            <constraint firstItem="gtx-ir-9EN" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Cv6-BD-awj"/>
+                            <constraint firstItem="gtx-ir-9EN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DnF-YD-mDG"/>
+                            <constraint firstAttribute="trailing" secondItem="m5o-Kl-S2I" secondAttribute="trailing" id="Pac-Cl-tzA"/>
+                            <constraint firstItem="gtx-ir-9EN" firstAttribute="top" secondItem="m5o-Kl-S2I" secondAttribute="bottom" constant="16" id="oLy-9J-LMc"/>
+                            <constraint firstItem="gtx-ir-9EN" firstAttribute="top" secondItem="m5o-Kl-S2I" secondAttribute="bottom" constant="16" id="zLF-ee-sz8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>

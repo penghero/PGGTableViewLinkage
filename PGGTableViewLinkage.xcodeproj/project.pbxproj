@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59F5DBB8B36026A82BF410EC /* libPods-PGGTableViewLinkage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38572F1B0720ECA1018D02F7 /* libPods-PGGTableViewLinkage.a */; };
+		7448A4FC1FB02DE900F7AEEA /* text.json in Resources */ = {isa = PBXBuildFile; fileRef = 7448A4FB1FB02DE900F7AEEA /* text.json */; };
+		7448A4FF1FB02E1C00F7AEEA /* PGGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7448A4FE1FB02E1C00F7AEEA /* PGGCollectionViewCell.m */; };
+		7448A5021FB02E3D00F7AEEA /* PGGCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7448A5011FB02E3D00F7AEEA /* PGGCollectionModel.m */; };
+		7448A5051FB0539200F7AEEA /* PGGCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7448A5041FB0539200F7AEEA /* PGGCollectionReusableView.m */; };
 		7497A2D01FAACB0100D5EFFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7497A2CF1FAACB0100D5EFFC /* AppDelegate.m */; };
 		7497A2D31FAACB0100D5EFFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7497A2D21FAACB0100D5EFFC /* ViewController.m */; };
 		7497A2D61FAACB0100D5EFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7497A2D41FAACB0100D5EFFC /* Main.storyboard */; };
@@ -15,6 +20,10 @@
 		7497A2DE1FAACB0100D5EFFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7497A2DD1FAACB0100D5EFFC /* main.m */; };
 		7497A2E81FAACB0200D5EFFC /* PGGTableViewLinkageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7497A2E71FAACB0200D5EFFC /* PGGTableViewLinkageTests.m */; };
 		7497A2F31FAACB0200D5EFFC /* PGGTableViewLinkageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7497A2F21FAACB0200D5EFFC /* PGGTableViewLinkageUITests.m */; };
+		74B4325E1FADA058004B206D /* PGGTwoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B432591FADA058004B206D /* PGGTwoTable.m */; };
+		74B4325F1FADA058004B206D /* PGGTableAndCollecton.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4325D1FADA058004B206D /* PGGTableAndCollecton.m */; };
+		74B432631FADA581004B206D /* Provineces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B432621FADA581004B206D /* Provineces.plist */; };
+		74B4326B1FADA90B004B206D /* PGGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4326A1FADA90B004B206D /* PGGModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2600C8A36B797B46ACB7C6D0 /* Pods-PGGTableViewLinkage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGGTableViewLinkage.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGGTableViewLinkage/Pods-PGGTableViewLinkage.release.xcconfig"; sourceTree = "<group>"; };
+		38572F1B0720ECA1018D02F7 /* libPods-PGGTableViewLinkage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PGGTableViewLinkage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7448A4F81FAFDEAF00F7AEEA /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		7448A4FB1FB02DE900F7AEEA /* text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = text.json; sourceTree = "<group>"; };
+		7448A4FD1FB02E1C00F7AEEA /* PGGCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCollectionViewCell.h; sourceTree = "<group>"; };
+		7448A4FE1FB02E1C00F7AEEA /* PGGCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCollectionViewCell.m; sourceTree = "<group>"; };
+		7448A5001FB02E3D00F7AEEA /* PGGCollectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCollectionModel.h; sourceTree = "<group>"; };
+		7448A5011FB02E3D00F7AEEA /* PGGCollectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCollectionModel.m; sourceTree = "<group>"; };
+		7448A5031FB0539200F7AEEA /* PGGCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGCollectionReusableView.h; sourceTree = "<group>"; };
+		7448A5041FB0539200F7AEEA /* PGGCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGCollectionReusableView.m; sourceTree = "<group>"; };
 		7497A2CB1FAACB0100D5EFFC /* PGGTableViewLinkage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGGTableViewLinkage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7497A2CE1FAACB0100D5EFFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7497A2CF1FAACB0100D5EFFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +70,14 @@
 		7497A2EE1FAACB0200D5EFFC /* PGGTableViewLinkageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGGTableViewLinkageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7497A2F21FAACB0200D5EFFC /* PGGTableViewLinkageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGTableViewLinkageUITests.m; sourceTree = "<group>"; };
 		7497A2F41FAACB0200D5EFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B432581FADA058004B206D /* PGGTwoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGTwoTable.h; sourceTree = "<group>"; };
+		74B432591FADA058004B206D /* PGGTwoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGTwoTable.m; sourceTree = "<group>"; };
+		74B4325C1FADA058004B206D /* PGGTableAndCollecton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGTableAndCollecton.h; sourceTree = "<group>"; };
+		74B4325D1FADA058004B206D /* PGGTableAndCollecton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGTableAndCollecton.m; sourceTree = "<group>"; };
+		74B432621FADA581004B206D /* Provineces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Provineces.plist; sourceTree = "<group>"; };
+		74B432691FADA90B004B206D /* PGGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGGModel.h; sourceTree = "<group>"; };
+		74B4326A1FADA90B004B206D /* PGGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGModel.m; sourceTree = "<group>"; };
+		AB65212278BE017E1FEDAD09 /* Pods-PGGTableViewLinkage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGGTableViewLinkage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGGTableViewLinkage/Pods-PGGTableViewLinkage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F5DBB8B36026A82BF410EC /* libPods-PGGTableViewLinkage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442A1D145B0E56F392C70173 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB65212278BE017E1FEDAD09 /* Pods-PGGTableViewLinkage.debug.xcconfig */,
+				2600C8A36B797B46ACB7C6D0 /* Pods-PGGTableViewLinkage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7448A4F91FB02AE500F7AEEA /* M */ = {
+			isa = PBXGroup;
+			children = (
+				7448A5001FB02E3D00F7AEEA /* PGGCollectionModel.h */,
+				7448A5011FB02E3D00F7AEEA /* PGGCollectionModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		7448A4FA1FB02AEC00F7AEEA /* V */ = {
+			isa = PBXGroup;
+			children = (
+				7448A4FD1FB02E1C00F7AEEA /* PGGCollectionViewCell.h */,
+				7448A4FE1FB02E1C00F7AEEA /* PGGCollectionViewCell.m */,
+				7448A5031FB0539200F7AEEA /* PGGCollectionReusableView.h */,
+				7448A5041FB0539200F7AEEA /* PGGCollectionReusableView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
 		7497A2C21FAACB0100D5EFFC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +142,8 @@
 				7497A2E61FAACB0200D5EFFC /* PGGTableViewLinkageTests */,
 				7497A2F11FAACB0200D5EFFC /* PGGTableViewLinkageUITests */,
 				7497A2CC1FAACB0100D5EFFC /* Products */,
+				442A1D145B0E56F392C70173 /* Pods */,
+				A4D4F8E400F77C07EAEA74BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +160,11 @@
 		7497A2CD1FAACB0100D5EFFC /* PGGTableViewLinkage */ = {
 			isa = PBXGroup;
 			children = (
-				7497A2CE1FAACB0100D5EFFC /* AppDelegate.h */,
-				7497A2CF1FAACB0100D5EFFC /* AppDelegate.m */,
-				7497A2D11FAACB0100D5EFFC /* ViewController.h */,
-				7497A2D21FAACB0100D5EFFC /* ViewController.m */,
-				7497A2D41FAACB0100D5EFFC /* Main.storyboard */,
-				7497A2D71FAACB0100D5EFFC /* Assets.xcassets */,
-				7497A2D91FAACB0100D5EFFC /* LaunchScreen.storyboard */,
-				7497A2DC1FAACB0100D5EFFC /* Info.plist */,
-				7497A2DD1FAACB0100D5EFFC /* main.m */,
+				74B432401FAD93CC004B206D /* PGGDelegate */,
+				74B432411FAD93FB004B206D /* MainController */,
+				74B432561FADA058004B206D /* TableAndCollectionLinkage */,
+				74B4325A1FADA058004B206D /* TwoTableViewLinkage */,
+				74B4323D1FAD92A0004B206D /* source */,
 			);
 			path = PGGTableViewLinkage;
 			sourceTree = "<group>";
@@ -132,6 +187,93 @@
 			path = PGGTableViewLinkageUITests;
 			sourceTree = "<group>";
 		};
+		74B4323D1FAD92A0004B206D /* source */ = {
+			isa = PBXGroup;
+			children = (
+				7448A4FB1FB02DE900F7AEEA /* text.json */,
+				74B432621FADA581004B206D /* Provineces.plist */,
+				7497A2D41FAACB0100D5EFFC /* Main.storyboard */,
+				7497A2D71FAACB0100D5EFFC /* Assets.xcassets */,
+				7497A2D91FAACB0100D5EFFC /* LaunchScreen.storyboard */,
+				7497A2DC1FAACB0100D5EFFC /* Info.plist */,
+				7497A2DD1FAACB0100D5EFFC /* main.m */,
+				7448A4F81FAFDEAF00F7AEEA /* Header.h */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		74B432401FAD93CC004B206D /* PGGDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7497A2CE1FAACB0100D5EFFC /* AppDelegate.h */,
+				7497A2CF1FAACB0100D5EFFC /* AppDelegate.m */,
+			);
+			path = PGGDelegate;
+			sourceTree = "<group>";
+		};
+		74B432411FAD93FB004B206D /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				7497A2D11FAACB0100D5EFFC /* ViewController.h */,
+				7497A2D21FAACB0100D5EFFC /* ViewController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		74B432561FADA058004B206D /* TableAndCollectionLinkage */ = {
+			isa = PBXGroup;
+			children = (
+				74B432681FADA90B004B206D /* M */,
+				74B432571FADA058004B206D /* C */,
+			);
+			path = TableAndCollectionLinkage;
+			sourceTree = "<group>";
+		};
+		74B432571FADA058004B206D /* C */ = {
+			isa = PBXGroup;
+			children = (
+				74B432581FADA058004B206D /* PGGTwoTable.h */,
+				74B432591FADA058004B206D /* PGGTwoTable.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		74B4325A1FADA058004B206D /* TwoTableViewLinkage */ = {
+			isa = PBXGroup;
+			children = (
+				7448A4FA1FB02AEC00F7AEEA /* V */,
+				7448A4F91FB02AE500F7AEEA /* M */,
+				74B4325B1FADA058004B206D /* C */,
+			);
+			path = TwoTableViewLinkage;
+			sourceTree = "<group>";
+		};
+		74B4325B1FADA058004B206D /* C */ = {
+			isa = PBXGroup;
+			children = (
+				74B4325C1FADA058004B206D /* PGGTableAndCollecton.h */,
+				74B4325D1FADA058004B206D /* PGGTableAndCollecton.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		74B432681FADA90B004B206D /* M */ = {
+			isa = PBXGroup;
+			children = (
+				74B432691FADA90B004B206D /* PGGModel.h */,
+				74B4326A1FADA90B004B206D /* PGGModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		A4D4F8E400F77C07EAEA74BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38572F1B0720ECA1018D02F7 /* libPods-PGGTableViewLinkage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7497A2F71FAACB0200D5EFFC /* Build configuration list for PBXNativeTarget "PGGTableViewLinkage" */;
 			buildPhases = (
+				7DFEDCCAFB477BBCA50A103B /* [CP] Check Pods Manifest.lock */,
 				7497A2C71FAACB0100D5EFFC /* Sources */,
 				7497A2C81FAACB0100D5EFFC /* Frameworks */,
 				7497A2C91FAACB0100D5EFFC /* Resources */,
+				620E79161087FE3183C4FDD5 /* [CP] Embed Pods Frameworks */,
+				26B3355240F452C6BC811ADE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +339,7 @@
 		7497A2C31FAACB0100D5EFFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PGG;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = penggege.CP;
 				TargetAttributes = {
@@ -238,7 +384,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B432631FADA581004B206D /* Provineces.plist in Resources */,
 				7497A2DB1FAACB0100D5EFFC /* LaunchScreen.storyboard in Resources */,
+				7448A4FC1FB02DE900F7AEEA /* text.json in Resources */,
 				7497A2D81FAACB0100D5EFFC /* Assets.xcassets in Resources */,
 				7497A2D61FAACB0100D5EFFC /* Main.storyboard in Resources */,
 			);
@@ -260,13 +408,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26B3355240F452C6BC811ADE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGGTableViewLinkage/Pods-PGGTableViewLinkage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		620E79161087FE3183C4FDD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGGTableViewLinkage/Pods-PGGTableViewLinkage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DFEDCCAFB477BBCA50A103B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7497A2C71FAACB0100D5EFFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B4325E1FADA058004B206D /* PGGTwoTable.m in Sources */,
+				74B4325F1FADA058004B206D /* PGGTableAndCollecton.m in Sources */,
+				7448A5021FB02E3D00F7AEEA /* PGGCollectionModel.m in Sources */,
+				7448A5051FB0539200F7AEEA /* PGGCollectionReusableView.m in Sources */,
 				7497A2D31FAACB0100D5EFFC /* ViewController.m in Sources */,
 				7497A2DE1FAACB0100D5EFFC /* main.m in Sources */,
+				74B4326B1FADA90B004B206D /* PGGModel.m in Sources */,
+				7448A4FF1FB02E1C00F7AEEA /* PGGCollectionViewCell.m in Sources */,
 				7497A2D01FAACB0100D5EFFC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,29 +630,35 @@
 		};
 		7497A2F81FAACB0200D5EFFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB65212278BE017E1FEDAD09 /* Pods-PGGTableViewLinkage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MRVYXC2HHB;
-				INFOPLIST_FILE = PGGTableViewLinkage/Info.plist;
+				DEVELOPMENT_TEAM = H5K6RS22WJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PGGTableViewLinkage/source/Header.h";
+				INFOPLIST_FILE = "$(SRCROOT)/PGGTableViewLinkage/source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGTableViewLinkage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7497A2F91FAACB0200D5EFFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2600C8A36B797B46ACB7C6D0 /* Pods-PGGTableViewLinkage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MRVYXC2HHB;
-				INFOPLIST_FILE = PGGTableViewLinkage/Info.plist;
+				DEVELOPMENT_TEAM = H5K6RS22WJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PGGTableViewLinkage/source/Header.h";
+				INFOPLIST_FILE = "$(SRCROOT)/PGGTableViewLinkage/source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGTableViewLinkage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
